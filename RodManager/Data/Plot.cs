@@ -8,6 +8,11 @@ namespace RodManager.Data;
 public class Plot
 {
     /// <summary>
+    ///     Lista działkowców przypisanych do działki.
+    /// </summary>
+    public List<AllotmentFarmer> AllotmentFarmers = new();
+    
+    /// <summary>
     ///     Identyfikator działki.
     /// </summary>
     public Guid Id { get; set; }
