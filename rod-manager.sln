@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RodManager", "RodManager\RodManager.csproj", "{147DBDB7-4628-4AB0-BD47-67946FC7330A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RodManagerTests", "RodManagerTests\RodManagerTests.csproj", "{E965EE77-57CD-4CBE-A3AD-C2BF9EBC866E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{147DBDB7-4628-4AB0-BD47-67946FC7330A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{147DBDB7-4628-4AB0-BD47-67946FC7330A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{147DBDB7-4628-4AB0-BD47-67946FC7330A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E965EE77-57CD-4CBE-A3AD-C2BF9EBC866E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E965EE77-57CD-4CBE-A3AD-C2BF9EBC866E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E965EE77-57CD-4CBE-A3AD-C2BF9EBC866E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E965EE77-57CD-4CBE-A3AD-C2BF9EBC866E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
