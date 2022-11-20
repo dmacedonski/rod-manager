@@ -21,7 +21,7 @@
             </ChildContent>
         </MudMenu>
     </MudAppBar>
-    <MudDrawer ClipMode="DrawerClipMode.Always" Open="_isDrawerOpen">
+    <MudDrawer ClipMode="DrawerClipMode.Always" @bind-Open="_isDrawerOpen">
         <MudNavMenu Rounded="true" Color="Color.Primary" Margin="Margin.Dense" Class="pa-2">
             <MudNavLink Href="/" Match="NavLinkMatch.All" Icon="@Icons.Material.Rounded.Home">Strona główna</MudNavLink>
             <MudNavLink Href="/Plots" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Rounded.Dashboard">Działki</MudNavLink>
