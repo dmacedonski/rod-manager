@@ -2,6 +2,8 @@ using System.Reflection;
 
 using Microsoft.EntityFrameworkCore;
 
+using MudBlazor.Services;
+
 using RodManager.Providers;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
@@ -15,6 +17,7 @@ builder.Services.AddDbContextFactory<DatabaseContext>(options =>
 });
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+builder.Services.AddMudServices();
 
 WebApplication app = builder.Build();
 
